@@ -1,7 +1,6 @@
 body {background-color: #222;}
 #wrap {
-    background-color: #fff;
-    width: 440px; height: 956px;
+    width: 430px; height: 932px;
     margin: 50px auto;
     background-image: url(../images/bg1.jpg);
     background-size: 220% auto;/* w h */
@@ -10,15 +9,13 @@ body {background-color: #222;}
     padding: 100px 0 0 0;
     text-align: center;
 }
-#wrap #title {
-    margin-bottom: 42px;
-}
+#wrap #title {margin-bottom: 42px;}
 #wrap #title p {
-    margin-bottom: 10px;
     font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 #wrap #title h1 {font-size: 1.13rem;}
-#wrap #title h1 span {font-weight: 500;}
+#wrap #title h1 span {font-family: 'MaruBuri-B';}
 #wrap #birthday_frm {}
 #wrap #birthday_frm > * {
     display: block;
@@ -38,6 +35,6 @@ body {background-color: #222;}
 #wrap #birthday_frm #birthday_btn {
     width: 260px; height: 50px;
     background-color: black; border-radius: 30px;
-    font-size: 1.13rem; color: #fff;
+    font-size: 1.13rem; color: #fff;;
 }
 #wrap #birthday_frm #birthday_btn:hover {background-color: #a30d0d;}

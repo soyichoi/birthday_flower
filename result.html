@@ -7,23 +7,24 @@
     <meta name="keywords" content="">
     <title>나의 탄생화 찾기</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- <link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">웹글꼴 '마루부리' -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/result.css">
 </head>
 <body>
-    <div id="wrap" style="background-image: url(./flower_images/bg4.jpg);">
+    <div id="wrap">
         <div id="title">
-            <h1>The Flower of my birth Day</h1>
-            <h1>나의 탄생화 찾기</h1>
+            <p>The Flower of My Birth Day</p>
+            <h1>나의 <span>탄생화</span> 찾기</h1>
         </div>
         <div id="contents">
             <p class="user_month">birthday Month 8</p>
             <p class="result">
-                당신의 탄생화는 '해바라기'입니다.<br>
+                당신의 탄생화는 <em>'해바라기'</em>입니다.<br>
                 꽃말 : 감사, 충성, 숭배
             </p>
         </div>
-        <a href="#" class="share_btn">나의 꽃과 꽃말 공유하기</a>
+        <button type="button" id="share_btn" onclick="window.location.href='https://www.kakaocorp.com/page/service/service/KakaoTalk'">나의 꽃과 꽃말 공유하기</button>
         <a href="./index.html" class="back">처음으로 돌아가기</a>
     </div>
 </body>

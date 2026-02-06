@@ -1,0 +1,39 @@
+body {background-color: #222;}
+#wrap {
+    width: 430px; height: 932px;
+    margin: 50px auto;
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    padding: 100px 0 0;/* #wrap > #title */
+    text-align: center;
+}
+#wrap #title {margin-bottom: 45px;}/* #title + #contents */
+#wrap #title p {
+    font-size: 1.5rem;
+    margin: 0 0 10px;/* p + h1 */
+}
+#wrap #title h1 {font-size: 1.13rem;}
+#wrap #title h1 span {font-family: 'MaruBuri-B';}
+#wrap #contents {margin-bottom: 45px;}/* #contents + #share_btn */
+#wrap #contents p {}
+#wrap #contents .user_month {
+    font-size: 0.75rem; font-style: italic;
+    margin: 0 0 30px;/* p + p */
+}
+#wrap #contents .result {line-height: 1.5;/* 행간 150% */;}
+#wrap #contents .result em {font-family: 'MaruBuri-B'}
+#wrap #share_btn {
+    width: 260px; height: 50px;
+    background-color: #000; font-size: 1.13rem; color: #fff;
+    border-radius: 30px;
+    margin: 0 auto 16px;/* #share_btn + .back */
+}
+#wrap #share_btn:hover {background-color: #2d750c;}
+#wrap .back {
+    display: block;
+    font-size: 0.88rem;
+}
+#wrap .back:hover {
+    color: red;
+    text-decoration: underline;
+}
